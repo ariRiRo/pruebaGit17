@@ -1,0 +1,53 @@
+
+.main{
+    border: 2px solid black;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secundaryA{
+    border: 2px solid red;
+    width: 45%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secundaryB{
+    border: 2px solid red;
+    width: 45%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+} 
+
+.tresA{
+    border: 2px solid black;
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tresB{
+    border: 2px solid black;
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuatro{
+    border: 2px solid black;
+    width: 15%;
+    height: 20%;
+}

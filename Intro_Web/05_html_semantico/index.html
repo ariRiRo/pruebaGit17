@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Semantico</title>
+</head>
+<body>
+    <header>
+        <h1>Hipervinculos de navegación</h1>
+        <nav>
+            <ul>
+                <li><a href="#ejemplo">Inicio</a></li>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#image">Imagen</a></li>
+                <li><a href="#web">Contacto</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div id="casa">
+                <h2>Vieja escuela</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maiores deserunt, dignissimos officia voluptatibus nemo. Consequatur nam, architecto corporis commodi obcaecati, reprehenderit in ut dolore totam quasi magnam consectetur adipisci!</p>
+            </div>
+        </div>
+
+        <section>
+            <article id="ejemplo">
+                <h2>Nueva escuela</h2>
+                <p>El futuro es hoy. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam facere libero, accusantium natus maiores, fugiat fuga officia eaque tenetur itaque iste dicta eius error unde ipsa sunt pariatur, quis atque?</p>
+            </article>
+            <!-- Representa parte de la página (contenido) que esta directamente relacionada con ella, en este caso con article
+            Se ponen, generalmente, a la izq o derecha-->
+            <aside>
+                <h3>¿Como se comporta aside?</h3>
+                <p>Se comporta así, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus deserunt eos odio officiis suscipit dolorem optio eaque sint mollitia magni odit esse dolor vel, incidunt debitis, consequuntur ratione, voluptas aliquam?</p>
+                <p> <img class="fig" src="./img/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.webp" alt="figura flotante"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi eligendi deserunt quas natus itaque modi, magnam nesciunt alias voluptatum eos blanditiis architecto in nihil dolorum! Dicta eaque suscipit harum.</p>
+            </aside>
+        </section>
+
+        <figure id="image">
+            <img src="./img/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.webp" height="400" width="400" alt="gatito local">
+            <figcaption> Esto es una figura</figcaption>
+        </figure>
+
+        <audio controls>
+            <source src="" type="audio/mp3">
+        </audio>
+
+        <video controls>
+            <source srcs="" type="video/mp4">
+        </video>
+        <!-- Importar video de la web-->
+        <embed width="100%" height="396" src="">
+        <div id="info">
+            <iframe width="704" height="396" src="" ></iframe>
+        </div>
+        <div id="web" class="phone">
+            <embed width="70%" height="396"src="">
+        </div>
+        <embed width="70%" height="396"src="">
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

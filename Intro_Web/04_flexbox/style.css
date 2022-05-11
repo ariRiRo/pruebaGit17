@@ -1,0 +1,25 @@
+
+/*El contenedor mayor es el que va a indicar la posición de
+los elementos de su interior
+*/
+.main{
+    border: 2px solid black;
+    height: 500px;
+    /* Primer paso, usar display flex */
+    display: flex;
+    /* Mover los elementos en el eje X u horizontal */
+    justify-content: flex-end;
+    /*justify-content: center;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+    /* Mover los elementos en el eje Y o de forma vertical*/
+    align-items: center;
+    /*Cambiar los elementos de fila a columna e invierte nuestros ejes*/
+    flex-direction: column;
+}
+
+.secundary{
+    border: 2px solid red;
+    width: 25%;
+    height: 25%;
+}
