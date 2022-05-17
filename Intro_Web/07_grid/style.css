@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.grid-container{
+    margin: 15px;
+    display: grid;
+    /*utilizando unidad auto*/
+    /*grid-template-columns: auto auto auto;*/
+    /*utilizando unidad fr*/
+    grid-template-columns: 2fr 1fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+    background-color: thistle;
+
+}
+
+.grid-item{
+    background-color: tomato;
+    border: 2px solid;
+    padding: 20%;
+    font-size: 30px;
+    text-align: center;
+    color: wheat;
+}

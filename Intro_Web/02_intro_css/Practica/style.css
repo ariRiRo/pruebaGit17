@@ -9,3 +9,11 @@ h1{
     font-weight: bolder;
 }
 
+p{
+    text-align: justify;
+}
+
+.centrado{
+    text-align: center;
+}
+
